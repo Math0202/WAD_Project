@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.body h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+.small-letters{
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+.normal-font{
+    font-style: normal;
+    font-size: x-large;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: blue;
+}   
+
+
+.container p {
+    text-align: center;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+}
+
+.left, .right {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.middle {
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+}
+
+.middle h3 {
+    text-align: center;
+    color: blue;
+}
+
+.middle-content {
+    margin: auto;
+    text-align: left;
+}
+
+.stylesforImages img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.news-links a {
+    text-decoration: none;
+}
